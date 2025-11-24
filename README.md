@@ -8,6 +8,10 @@ After the data has been loaded into the S3 bucket, we will employ dbt (Data Buil
 
 Additionally, we are taking advantage of dbt's modeling capabilities to create the necessary tables in Snowflake across different layers: raw, transform, and mart.
 
+**Architecture:**
+<img width="672" height="206" alt="image" src="https://github.com/user-attachments/assets/02da493f-7396-42bf-84ef-901b6f41e037" />
+
+
 **Project Steps:**
 
 Create an AWS IAM Role for Glue Job Access:
