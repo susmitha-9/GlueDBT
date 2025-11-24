@@ -1,6 +1,6 @@
-# GlueDBT
+**# GlueDBT**
 
-Project Overview:
+**Project Overview:**
 
 In this project, we are utilizing AWS Glue to extract data from an external API and store it in JSON format within an S3 bucket. 
 
@@ -8,7 +8,7 @@ After the data has been loaded into the S3 bucket, we will employ dbt (Data Buil
 
 Additionally, we are taking advantage of dbt's modeling capabilities to create the necessary tables in Snowflake across different layers: raw, transform, and mart.
 
-Project Steps:
+**Project Steps:**
 
 Create an AWS IAM Role for Glue Job Access:
 The first step will be to set up an AWS Identity and Access Management (IAM) role specifically for the AWS Glue job. This role will grant the necessary permissions for the Glue job to read and write data to the designated S3 bucket.
